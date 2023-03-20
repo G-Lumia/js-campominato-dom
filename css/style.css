@@ -1,0 +1,32 @@
+.wrapper
+{
+    width:100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+header, footer
+{
+    background-color: white;
+    height: 70px;
+}
+
+main
+{
+    height : calc(100% - 140px);
+}
+
+#gameSquare
+{
+    width: 400px;
+    height: 400px;
+}
+
+.square
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    cursor: pointer;
+}

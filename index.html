@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campo Minato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <header class="d-flex justify-content-between align-items-center px-5">
+            <h1>
+                Campo Minato
+            </h1>
+            <div>
+                <label for="difficulty"> Scegli la difficoltà </label>
+                <select id="difficulty">
+                    <option value="facile"> Facile </option>
+                    <option value="medio"> Medio </option>
+                    <option value="difficile"> Difficile </option>
+                </select>
+                <button id="startGame" class="btn btn-warning mx-2">
+                    Gioca
+                </button>
+            </div>
+        </header>
+        <main class="d-flex flex-column justify-content-center align-items-center">
+            <h3 id="startMessage"> Seleziona una difficoltà e premi il tasto play! </h3>
+            <div id="gameSquare" class="d-flex d-none flex-wrap">
+               
+            </div>
+        </main>
+        <footer class="d-flex align-items-center px-5">
+            <h4> Fatto con &hearts; da Boolean#92 </h4>
+        </footer>
+    </div>
+    <script src="./js/myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
